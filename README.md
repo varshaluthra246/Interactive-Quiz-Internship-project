@@ -29,12 +29,13 @@ The interactive Quiz Application is a dynamic web-based platform designed to eng
 
    ![ss2](https://github.com/user-attachments/assets/80430fc8-d662-49d5-a541-36ec817d46db)
 
-   ![ss3](https://github.com/user-attachments/assets/757b90b4-5e34-48fc-b685-da4dad4ca139)
+<img width="506" alt="ss4" src="https://github.com/user-attachments/assets/31e95a7f-bbb2-4477-adec-8a1aecaf4ab1" />
+ 
 
 
 3) Score Page
 
-   <img width="506" alt="ss4" src="https://github.com/user-attachments/assets/31e95a7f-bbb2-4477-adec-8a1aecaf4ab1" />
+   ![ss3](https://github.com/user-attachments/assets/757b90b4-5e34-48fc-b685-da4dad4ca139)
 
 # 	How the Application Works:
 a)	Users access the quiz interface via browser.
