@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato",sans-serif;
+    background-image: url();
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(quiz_bg.jpg);
+    
+}
+.container{
+    width: 940px;
+    background-color: #fff;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
+    min-height: 350px;
+    padding: 80px 90px;
+    border-radius: 20px;
+    display: flex;
+}
+.leftside, .rightside{
+    /* border: 1px solid red; */
+    width: 50,
+}
+.leftside img{
+    height: 300px;
+    width: 300px;
+}
+.rightside
+{
+    margin-left: 40px;
+    width: 600px;
+    padding: 10px;
+}
+.rightside u
+{
+    color: #9024e8;
+}
+.rightside h1{
+    color: #9024e8;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.rightside h2{
+    color: #9024e8;
+    margin: 20px auto 10px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.rightside ul{
+    color: #bd7cf2;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 600;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.rightside a{
+    background-color: #9024e8;
+    border-radius: 100px;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 25px;
+    text-decoration: none;
+    outline: none;
+    font-weight: 700;
+}
+.rightside ul li{
+    margin-top: 5px;
+}
+
+/* question page css start */
+
+
+.box{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
+    min-height: 350px;
+    width: 640px;
+    padding: 50px;
+}
+.title{
+    border-bottom: 1px solid #9024e8;;
+    color: #9024e8;;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.scoreBox, .timerBox{
+    border-radius: 100px;
+    padding: 10px 15px;
+    border: 1px solid #9024e8;
+    color: #444;
+}
+.questionBox{
+    background-color: #9024e8;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.optionBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0;
+    grid-gap: 15px;
+}
+.optionBox span{
+    background-color: #d5b1f3;
+    border-radius: 10px;
+    color: #444;
+    border: 1px solid #444;
+    padding: 10px 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer button{
+    background-color: #9024e8;
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: #fff;
+    border:0 ;
+    outline: none;
+    font-size: 20px;
+}
+.resultBox{
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 15px;
+    font-size: 20px;
+}
+.resultBox *:nth-child(odd){
+    text-align: right;
+}
+.resultBox span{
+    font-weight: 600;
+}
+.buttonBox{
+    border-top: 1px solid #9024e8;
+    padding-top: 15px;
+    text-align: center;
+}
+.buttonBox a{
+    background-color: #9024e8;
+    border-radius: 50px;
+    border: 0;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    padding: 7px 15px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.optionBox span.right{
+    background-color: #00ab00;
+    border-color: #00ab00;
+    color: #fff;
+}
+.optionBox span.wrong{
+    background-color: #ea1717;
+    border-color: #ff3b0e;
+    color: #fff;
+}
+/* question page css end */
+
+/* media query start */
+@media screen and (max-width: 768px) {
+    .leftside{
+        display: none;
+    }
+    .container, .box{
+        width: 425px;
+    }
+    .rightside{
+        width: 100%;
+    }
+    .optionBox{
+        grid-template-columns: 1fr;
+    }
+}

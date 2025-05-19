@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="leftside">
+            <img src="front_image.png" alt="quiz_logo">
+        </div>
+
+        <div class="rightside">
+            <u><h1>Welcome to HTML Quiz</h1></u>
+            <h2>Features :-</h2>
+            <ul>
+                <li>10 Questions (10 Sec each)</li>
+                <li>200 Seconds timer</li>
+                <li>Random Questions</li>
+                <li>Get Result Any Time</li>
+            </ul>
+
+            <a href="questions.html">Let's Start Quiz</a>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="tilt.min.js"></script>
+<script>
+    $(".tilt").tilt({
+        scale: 1.2,
+    });
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html>
