@@ -3,12 +3,12 @@
 # Abstract
 The interactive Quiz Application is a dynamic web-based platform designed to engage users in an educational and entertaining manner. It provides an intuitive interface for hosting multiple choice quizzes with real- time feedback, score-tracking, and progress visualisation. The application utilises responsive web technologies, including HTML, CSS, and JavaScript, to ensure accessibility across various devices. 
 
-# Objective
--	To create user-friendly quiz application.
--	To allow users to attempt quizzes and view scores.
--	To gain hands-on experience with full-stack web development.
+# 🎯 Objective
+- ✅	To create user-friendly quiz application.
+-	✅ To allow users to attempt quizzes and view scores.
+-	✅ To gain hands-on experience with full-stack web development.
 
-# Technologies Used
+# 🛠 Technologies Used
 
 -	HTML5 – structure and layout
 -	CSS3 – Styling and responsiveness
@@ -38,15 +38,15 @@ The interactive Quiz Application is a dynamic web-based platform designed to eng
    ![ss3](https://github.com/user-attachments/assets/757b90b4-5e34-48fc-b685-da4dad4ca139)
 
 # 	How the Application Works:
-a)	Users access the quiz interface via browser.
-b)	Questions are fetched using JavaScript (Quiz.js) as in the form of Array of objects and timer runs. If timer out then user gets an alert of “Times Up!”.
-c)	Users submit answers and backend calculates the scores 
-d)	Scores are displayed.
+a)	Users access the quiz interface via browser. <br>
+b)	Questions are fetched using JavaScript (Quiz.js) as in the form of Array of objects and timer runs. If timer out then user gets an alert of “Times Up!”. <br>
+c)	Users submit answers and backend calculates the scores. <br> 
+d)	Scores are displayed. <br>
 
-# Outcome
+# 📌 Outcome
 
 The programming quiz runs successfully in a local browser. It allows for easy management of Quiz content and offers users a smooth quiz-taking experience.
 
-# Learnings
+#  💡Learnings
 
 -	Strengthened frontend development using HTML, CSS, and JavaScript.
